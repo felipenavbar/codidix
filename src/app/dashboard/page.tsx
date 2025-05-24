@@ -14,7 +14,7 @@ import {
 } from "react-icons/fi";
 
 export default function DashboardPage() {
-  const { userId } = useAuth();
+  
   const { user } = useUser();
   
   // Obtener las últimas actuaciones

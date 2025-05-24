@@ -3,7 +3,7 @@
 import DashboardLayout from "@/components/DashboardLayout";
 import { useAuth, useUser } from '@clerk/nextjs';
 import { currentUser as mockUser } from '@/data/mockData';
-import { FiUser, FiMail, FiBriefcase, FiSettings, FiBell, FiShield } from "react-icons/fi";
+import { FiUser, FiBriefcase, FiSettings, FiBell, FiShield } from "react-icons/fi";
 
 export default function ProfilePage() {
   // Obtenemos el usuario de Clerk con los hooks del cliente

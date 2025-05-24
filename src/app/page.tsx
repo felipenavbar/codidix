@@ -1,7 +1,7 @@
 import { AppLayout } from "@/components/AppLayout";
 import Link from "next/link";
 import { SignedIn, SignedOut } from "@clerk/nextjs";
-import Image from "next/image";
+
 
 export default function Home() {
   return (

@@ -1,7 +1,7 @@
 "use client";
 
 import DashboardLayout from "@/components/DashboardLayout";
-import { useAuth, useUser } from "@clerk/nextjs";
+import {useUser } from "@clerk/nextjs";
 import { currentUser as mockCurrentUser, mockEstadisticas, mockProcesos, mockAlertas } from "@/data/mockData";
 import Link from "next/link";
 import { 

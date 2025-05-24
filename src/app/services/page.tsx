@@ -1,4 +1,5 @@
 import { AppLayout } from "@/components/AppLayout";
+import Image from "next/image";
 
 export default function ServicesPage() {
   const services = [
